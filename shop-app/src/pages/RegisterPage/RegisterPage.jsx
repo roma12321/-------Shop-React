@@ -45,6 +45,7 @@ function RegisterPage(){
             <button type="submit">
                 Зарагестрироваться
             </button>
+            <p>Уже есть аккаунт?<Link to="/login">Войти</Link></p>
         </form>
         </div>
     )
