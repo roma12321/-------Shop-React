@@ -1,10 +1,44 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from './CartPage.module.css';
-
 function CartPage(){
     const navigate = useNavigate();
     const[cart,setCart]=useState(JSON.parse(localStorage.getItem("cart")))
+    function removeFrontCart(id){
+    const newCart=cart.filter((item)=>
+    item.id!==id);
+    setCart(newCart);
+    localStorage.setItem("cart",JSON.stringify(newCart));
+}
+function clearCart(){
+    setCart([])
+    localStorage.removeItem("cart")
+}
+const totalPrice=cart.reduce((sum,item)=>sum+item.price*item.count,0);
+    function increaseCount(id){
+        const newCart=cart.map((item)=>{
+            if(item.id===id){
+                return{
+                    ...item,count:item.count+1
+                }
+            }
+            return item;
+        })
+        setCart(newCart)
+        localStorage.setItem("cart",JSON.stringify(newCart));
+    }
+    function decreaseCount(id){
+        const newCart=cart.map((item)=>{
+            if(item.id===id){
+                return{
+                    ...item,count:item.count-1
+                }
+            }
+            return item;
+        }).filter((item)=>item.count>0);
+        setCart(newCart)
+        localStorage.setItem("cart",JSON.stringify(newCart));
+    }
     return(
         <div className={styles.container}>
             <h1>Корзина</h1>
@@ -17,14 +51,24 @@ function CartPage(){
                         {cart.map((item)=>(
                             <div className={styles.item} key={item.id}>
                                 <img src={item.image} alt={item.title} />
-                                <p>Цена{item.price}</p>
+                                <div className={styles.counter}>
+                                    <button disabled={item.count===1} onClick={()=>decreaseCount(item.id)}>-</button>
+                                   <button onClick={() => {
+                                                        if (item.count>=item.stock) {
+                                                            alert('Нет в наличии!');
+                                                            return;
+                                                            }
+                                                            increaseCount(item.id);
+                                                        }}>+</button>
+                                </div>
+                                <p>Цена{item.price}$</p>
                                 <p>Кол-во: {item.count}</p> 
-                                <p>Сумма: {item.price*item.count}</p> 
-                                <button>Удалить</button>
+                                <p>Сумма: {item.price*item.count}$</p> 
+                                <button onClick={()=>removeFrontCart(item.id)}>Удалить</button>
                             </div>
                         ))}
-                        {/* <h2>Итого: {totalPrice}</h2> */}
-                        <button>Очистить корзину</button>
+                        <h2>Итого: {totalPrice}$</h2>
+                        <button onClick={clearCart}>Очистить корзину</button>
                     </div>
                 </>
             )}

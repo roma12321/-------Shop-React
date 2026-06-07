@@ -1,3 +1,6 @@
+body {
+  background: linear-gradient(135deg, #646f7a 0%);
+}
 .container{
     padding: 30px;
 }
