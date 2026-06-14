@@ -52,19 +52,19 @@ const totalPrice=cart.reduce((sum,item)=>sum+item.price*item.count,0);
                             <div className={styles.item} key={item.id}>
                                 <img src={item.image} alt={item.title} />
                                 <div className={styles.counter}>
-                                    <button disabled={item.count===1} onClick={()=>decreaseCount(item.id)}>-</button>
+                                    <button disabled={item.count===1} onClick={()=>decreaseCount(item.id)} className={styles.bot}>-</button>
                                    <button onClick={() => {
                                                         if (item.count>=item.stock) {
                                                             alert('Нет в наличии!');
                                                             return;
                                                             }
                                                             increaseCount(item.id);
-                                                        }}>+</button>
+                                                        }}className={styles.bot}>+</button>
                                 </div>
                                 <p>Цена{item.price}$</p>
                                 <p>Кол-во: {item.count}</p> 
                                 <p>Сумма: {item.price*item.count}$</p> 
-                                <button onClick={()=>removeFrontCart(item.id)}>Удалить</button>
+                                <button onClick={()=>removeFrontCart(item.id)} className={styles.bot}>Удалить</button>
                             </div>
                         ))}
                         <h2>Итого: {totalPrice}$</h2>

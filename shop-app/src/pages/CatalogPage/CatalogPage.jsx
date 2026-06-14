@@ -62,11 +62,11 @@ function CatalogPage() {
       </div>
       <div className={styles.products}>
         {products.map((product) => (
-          <div className={styles.card} key={product.id}>
+          <div className={styles.card} key={product.id} onClick={()=>navigate(`/product/${product.id}`)}>
             <img src={product.image} alt={product.title} />
             <h3>{product.title}</h3>
             <p>{product.price}$</p> 
-            <button onClick={()=>addToCart(product)}>Добавить в корзину</button>
+            <button onClick={(event)=>{event.stopPropagation();addToCart(product);}}>Добавить в корзину</button>
           </div>
         ))}
       </div>

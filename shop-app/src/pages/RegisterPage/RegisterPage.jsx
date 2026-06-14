@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
-import { getUsers,registerUset } from "../../api/usersApi";
+import { useNavigate, Link } from "react-router-dom"; 
+import { getUsers, registerUser } from "../../api/usersApi"; 
+
 import styles from './RegisterPage.module.css'
 
 function RegisterPage(){
@@ -22,7 +23,7 @@ function RegisterPage(){
             email:email,
             password:password,
         };
-        await registerUset(newUser);
+        await registerUser(newUser);
         alert("Регистрация выполнена")
         navigate("/login");
     }
@@ -43,9 +44,9 @@ function RegisterPage(){
             value={password}
             onChange={(event)=>setPassword(event.target.value)}/>
             <button type="submit">
-                Зарагестрироваться
+                Зарегистрироваться
             </button>
-            <p>Уже есть аккаунт?<Link to="/login">Войти</Link></p>
+            <p>Уже есть аккаунт? <Link to="/login">Войти</Link></p>
         </form>
         </div>
     )
