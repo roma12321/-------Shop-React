@@ -41,7 +41,7 @@ function LoginPage() {
         <button type="submit">
           Войти
         </button>
-        <p>Нету аккаунта?<Link to="/login">Зарегистрируйся</Link></p>
+        <p>Нету аккаунта?<Link to="/regist">Зарегистрируйся</Link></p>
       </form>
     </div>
   );

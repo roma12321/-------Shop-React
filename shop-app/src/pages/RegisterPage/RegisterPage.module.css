@@ -1,27 +1,94 @@
-body {
-  background: linear-gradient(135deg, #646f7a 0%);
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
 }
-.container{
-    padding: 30px;
+
+.container h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
 }
-.form{
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    margin: auto;
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
 }
-.form input{
-    padding: 10px;
-    font-size: 16xp;
-    border-radius: 30px;
+
+.form input {
+  width: 100%;
+  max-width: 340px;
+  padding: 14px 16px;
+  border: 2px solid #e1e8f0;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
 }
-.form button{
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 30px;
-    cursor: pointer;
+
+.form input:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.15);
+  background-color: #fff;
 }
-h1 {
-    text-align: center;
+
+.form input::placeholder {
+  color: #bdc3c7;
+}
+
+.form input:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form button {
+  background: linear-gradient(135deg, #c9df50 0%, #ced117 100%);
+  color: white;
+  border: none;
+  padding: 14px 24px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  max-width: 340px;
+  box-sizing: border-box;
+}
+
+.form button:hover {
+  box-shadow: 0 6px 16px rgba(52, 152, 219, 0.4); 
+}
+
+.form p {
+  text-align: center;
+  margin-top: 20px;
+  color: #7f8c8d;
+  font-size: 14px;
+  width: 100%;
+  max-width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.form a:hover {
+  color: #2980b9;
+  text-decoration: underline;
 }
