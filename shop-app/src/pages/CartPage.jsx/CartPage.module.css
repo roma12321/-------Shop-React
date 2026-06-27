@@ -1,35 +1,25 @@
+* {
+  box-sizing: border-box;
+  
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+  background-color: #6b6b6b;
+}
+
 .container {
-<<<<<<< HEAD
   max-width: 800px;
   margin: 40px auto;
   padding: 30px;
-  background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%);
+  background-color: #6b6b6b;
   border-radius: 16px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-=======
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 20px;
-  font-family: 'Courier New', Courier, monospace;
-  color: #000000;
-  background-color: #50575e;
-}
-.bot{
-  color: #eee;
-}
-.button1{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-h1 {
->>>>>>> ae68fd639513309b0ec8dffa1f761827386ae031
+  border: 2px solid rgba(10, 10, 10, 0.4); 
   text-align: center;
 }
-<<<<<<< HEAD
 
 .container h1 {
   text-align: center;
@@ -43,11 +33,6 @@ h1 {
 .container button {
   background: linear-gradient(135deg, #c9df50 0%, #ced117 100%);
   color: white;
-=======
-button {
-  background-color: #3498db;
-  color: rgb(201, 58, 58);
->>>>>>> ae68fd639513309b0ec8dffa1f761827386ae031
   border: none;
   padding: 12px 24px;
   border-radius: 10px;
@@ -55,10 +40,11 @@ button {
   font-weight: 600;
   cursor: pointer;
   margin-bottom: 20px;
-  transition: box-shadow 0.3s ease;
+  transition: transform 0.1s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(201, 223, 80, 0.25);
 }
-
 .container button:hover {
+  transform: translateY(-1px);
   box-shadow: 0 6px 16px rgba(52, 152, 219, 0.4);
 }
 
@@ -75,8 +61,14 @@ button {
   padding: 20px;
   background-color: white;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  border: 1.5px solid #000000; 
   gap: 15px;
+}
+
+.item:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-4px);
 }
 
 .item img {
@@ -84,6 +76,8 @@ button {
   height: 100px;
   object-fit: cover;
   border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  background: #f8f9fa;
 }
 
 .counter {
@@ -96,7 +90,7 @@ button {
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  border: 2px solid #3498db;
+  border: 2px solid #000000; 
   background-color: white;
   color: #3498db;
   font-weight: bold;
@@ -104,22 +98,21 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.2s ease;
 }
 
 .counter button:disabled {
   opacity: 0.5;
   cursor: not-allowed;
-}
-
-.counter button:hover {
-  background-color: #3498db;
-  color: white;
+  border-color: #bdc3c7;
+  color: #bdc3c7;
 }
 
 .item p {
   margin: 0;
   color: #2c3e50;
   font-size: 16px;
+  line-height: 1.4;
 }
 
 .item button {
@@ -130,10 +123,17 @@ button {
   border-radius: 6px;
   cursor: pointer;
   font-size: 14px;
+  transition: background 0.2s, transform 0.1s;
+  box-shadow: 0 2px 6px rgba(231, 76, 60, 0.2);
 }
 
 .item button:hover {
   background: #c0392b;
+  transform: scale(1.02);
+}
+
+.item button:active {
+  transform: scale(0.98);
 }
 
 h2 {
@@ -148,4 +148,7 @@ p {
   color: #7f8c8d;
   font-size: 18px;
   font-weight: 500;
+  line-height: 1.5;
 }
+
+

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import { getUsers,registerUset } from "../../api/usersApi";
+import { getUsers,registerUser } from "../../api/usersApi";
 import styles from './RegisterPage.module.css';
 
 function RegisterPage() {

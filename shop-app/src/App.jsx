@@ -11,8 +11,6 @@ import CartPage from './pages/CartPage.jsx/CartPage'
 import ProtectedRoute from './components/ProtectedRotue'
 import FooterPage from './pages/FooterPage/FooterPage'
 import HeaderPage from './pages/Header/HeaderPage'
-import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
 import ProductPage from './pages/ProductPage/ProductPage'
 
 
@@ -22,7 +20,6 @@ function App() {
   return (
     <div>
       <HeaderPage/>
-      <Header/>
       <Routes>  
         <Route path='/footer' element={<FooterPage/>}/>
         <Route path='/regist' element={<RegisterPage/>}/>
@@ -32,7 +29,6 @@ function App() {
         <Route path='/product/:id' element={<ProductPage/>}/>
         <Route path='/cart' element={ <ProtectedRoute> <CartPage/> </ProtectedRoute>}/>
       </Routes>
-      <Footer/>
     </div>
   )
 }

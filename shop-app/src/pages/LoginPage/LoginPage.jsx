@@ -24,6 +24,7 @@ function LoginPage() {
   }
   return (
     <div className={styles.container}>
+      <h1 className={styles.title}>Вход</h1>
       <form className={styles.form} onSubmit={handleRegister}>
         <input
           type="text"
@@ -41,7 +42,6 @@ function LoginPage() {
           Войти
         </button>
         <p>Нету аккаунта?<Link to="/regist">Зарегистрируйся</Link></p>
-        <p>Нету аккаунта?<Link to='/regist'>Зарегистрируйся</Link></p>
       </form>
     </div>
   );

@@ -79,7 +79,6 @@
       "id": "dpUW8SUXlaM"
     },
     {
-<<<<<<< HEAD
       "name": "dfg",
       "email": "dfg",
       "password": "dfg",
@@ -96,264 +95,187 @@
       "email": "dfg",
       "password": "dfg",
       "id": "90I6bv4WQ60"
-    }
-  ],
-  "products": [
-  {
-    "id": "1",
-    "title": "CityDrive Sedan",
-    "stock": 12,
-    "price": 1850,
-    "image": "/images/1-1.jpg",
-    "category": "Sedan"
-  },
-  {
-    "id": "2",
-    "title": "UrbanFlow Sedan",
-    "stock": 9,
-    "price": 1920,
-    "image": "/images/1-2.jpg",
-    "category": "Sedan"
-  },
-  {
-    "id": "3",
-    "title": "ComfortLine Sedan",
-    "stock": 15,
-    "price": 2100,
-    "image": "/images/1-3.jpg",
-    "category": "Sedan"
-  },
-  {
-    "id": "4",
-    "title": "SwiftPass Sedan",
-    "stock": 7,
-    "price": 1780,
-    "image": "/images/1-4.jpg",
-    "category": "Sedan"
-  },
-  {
-    "id": "5",
-    "title": "MetroGlide Sedan",
-    "stock": 11,
-    "price": 1990,
-    "image": "/images/1-5.jpg",
-    "category": "Sedan"
-  },
-  {
-    "id": "6",
-    "title": "TrailBlazer SUV",
-    "stock": 8,
-    "price": 2400,
-    "image": "/images/2-1.jpg",
-    "category": "SUV"
-  },
-  {
-    "id": "7",
-    "title": "OffRoadX SUV",
-    "stock": 5,
-    "price": 2650,
-    "image": "/images/2-2.jpg",
-    "category": "SUV"
-  },
-  {
-    "id": "8",
-    "title": "TerraRide SUV",
-    "stock": 10,
-    "price": 2380,
-    "image": "/images/2-3.jpg",
-    "category": "SUV"
-  },
-  {
-    "id": "9",
-    "title": "CrossPath SUV",
-    "stock": 6,
-    "price": 2520,
-    "image": "/images/2-4.jpg",
-    "category": "SUV"
-  },
-  {
-    "id": "10",
-    "title": "ApexRush Sport",
-    "stock": 3,
-    "price": 3800,
-    "image": "/images/3-1.jpg",
-    "category": "Sport"
-  },
-  {
-    "id": "11",
-    "title": "VelocityX Sport",
-    "stock": 4,
-    "price": 4100,
-    "image": "/images/3-2.jpg",
-    "category": "Sport"
-  },
-  {
-    "id": "12",
-    "title": "TurboFlux Sport",
-    "stock": 2,
-    "price": 4350,
-    "image": "/images/3-3.jpg",
-    "category": "Sport"
-  },
-  {
-    "id": "13",
-    "title": "EcoPulse Electric",
-    "stock": 7,
-    "price": 3100,
-    "image": "/images/4-1.jpg",
-    "category": "Electric"
-  },
-  {
-    "id": "14",
-    "title": "VoltStream Electric",
-    "stock": 9,
-    "price": 3320,
-    "image": "/images/4-2.jpg",
-    "category": "Electric"
-  },
-  {
-    "id": "15",
-    "title": "ChargeFlow Electric",
-    "stock": 8,
-    "price": 3250,
-    "image": "/images/4-3.jpg",
-    "category": "Electric"
-  },
-  {
-    "id": "16",
-    "title": "PrestigeV8 Luxury",
-    "stock": 2,
-    "price": 5800,
-    "image": "/images/5-1.jpg",
-    "category": "Luxury"
-  },
-  {
-    "id": "17",
-    "title": "RoyalGlide Luxury",
-    "stock": 1,
-    "price": 6100,
-    "image": "/images/5-2.jpg",
-    "category": "Luxury"
-  },
-  {
-    "id": "18",
-    "title": "MajesticLine Luxury",
-    "stock": 3,
-    "price": 5950,
-    "image": "/images/5-3.jpg",
-    "category": "Luxury"
-  },
-  {
-    "id": "19",
-    "title": "AeroSwift Sedan",
-    "stock": 13,
-    "price": 1890,
-    "image": "/images/5-4.jpg",
-    "category": "Sedan"
-  },
-  {
-    "id": "20",
-    "title": "SummitPeak SUV",
-    "stock": 4,
-    "price": 2700,
-    "image": "/images/6-1.jpg",
-    "category": "SUV"
-  }
-],
-
-=======
-      "name": "leyn2",
-      "email": "leyn2",
-      "password": "leyn2",
-      "id": "QhJ5K78nPG0"
     },
     {
-      "name": "leyn2",
-      "email": "leyn2",
-      "password": "leyn2",
-      "id": "tukm0Al-crg"
+      "name": "dfg",
+      "email": "dfg",
+      "password": "dfg",
+      "id": "ueQr4TjXIII"
     },
     {
-      "name": "leyn2",
-      "email": "leyn2",
-      "password": "leyn2",
-      "id": "Y35nXrUi5YI"
+      "name": "dfg",
+      "email": "dfg",
+      "password": "dfg",
+      "id": "1F2UOUnEBsE"
     },
     {
-      "name": "leyn2",
-      "email": "leyn2",
-      "password": "leyn2",
-      "id": "43crS96d0RU"
-    },
-    {
-      "name": "leyn2",
-      "email": "leyn2",
-      "password": "leyn2",
-      "id": "GU1z7A_UvWM"
-    },
-    {
-      "name": "leyn2",
-      "email": "leyn2",
-      "password": "leyn2",
-      "id": "IYy7XCpOopI"
-    },
-    {
-      "name": "leyn2",
-      "email": "leyn2",
-      "password": "leyn2",
-      "id": "aL9nXCWEV_c"
+      "name": "dfg",
+      "email": "dfg",
+      "password": "dfg",
+      "id": "YyKo7Z8NTJ0"
     }
   ],
   "products": [
     {
       "id": "1",
-      "title": "Avto",
-      "stock": 10,
-      "price": 1001,
+      "title": "CityDrive Sedan",
+      "stock": 12,
+      "price": 1850,
       "image": "/images/1-1.jpg",
-      "description": "Элегантный автомобиль, воплощающий в себе идеальное сочетание стиля и функциональности."
+      "category": "Sedan"
     },
     {
       "id": "2",
-      "title": "Avt2",
-      "stock": 10,
-      "price": 1002,
+      "title": "UrbanFlow Sedan",
+      "stock": 9,
+      "price": 1920,
       "image": "/images/1-2.jpg",
-      "description": "Элегантный автомобиль, воплощающий в себе идеальное сочетание стиля и функциональности."
+      "category": "Sedan"
     },
     {
       "id": "3",
-      "title": "Avt3",
-      "stock": 10,
-      "price": 1003,
+      "title": "ComfortLine Sedan",
+      "stock": 15,
+      "price": 2100,
       "image": "/images/1-3.jpg",
-      "description": "Элегантный автомобиль, воплощающий в себе идеальное сочетание стиля и функциональности."
+      "category": "Sedan"
     },
     {
       "id": "4",
-      "title": "Avto4",
-      "stock": 10,
-      "price": 1004,
-      "image": "/images/2-1.jpg",
-      "description": "Элегантный автомобиль, воплощающий в себе идеальное сочетание стиля и функциональности."
+      "title": "SwiftPass Sedan",
+      "stock": 7,
+      "price": 1780,
+      "image": "/images/1-4.jpg",
+      "category": "Sedan"
     },
     {
       "id": "5",
-      "title": "Avt5",
-      "stock": 10,
-      "price": 1005,
-      "image": "/images/2-2.jpg",
-      "description": "Элегантный автомобиль, воплощающий в себе идеальное сочетание стиля и функциональности. "
+      "title": "MetroGlide Sedan",
+      "stock": 11,
+      "price": 1990,
+      "image": "/images/1-5.jpg",
+      "category": "Sedan"
     },
     {
       "id": "6",
-      "title": "Avt6",
+      "title": "TrailBlazer SUV",
+      "stock": 8,
+      "price": 2400,
+      "image": "/images/2-1.jpg",
+      "category": "SUV"
+    },
+    {
+      "id": "7",
+      "title": "OffRoadX SUV",
+      "stock": 5,
+      "price": 2650,
+      "image": "/images/2-2.jpg",
+      "category": "SUV"
+    },
+    {
+      "id": "8",
+      "title": "TerraRide SUV",
       "stock": 10,
-      "price": 1006,
+      "price": 2380,
       "image": "/images/2-3.jpg",
-      "description": "Элегантный автомобиль, воплощающий в себе идеальное сочетание стиля и функциональности. "
+      "category": "SUV"
+    },
+    {
+      "id": "9",
+      "title": "CrossPath SUV",
+      "stock": 6,
+      "price": 2520,
+      "image": "/images/2-4.jpg",
+      "category": "SUV"
+    },
+    {
+      "id": "10",
+      "title": "ApexRush Sport",
+      "stock": 3,
+      "price": 3800,
+      "image": "/images/3-1.jpg",
+      "category": "Sport"
+    },
+    {
+      "id": "11",
+      "title": "VelocityX Sport",
+      "stock": 4,
+      "price": 4100,
+      "image": "/images/3-2.jpg",
+      "category": "Sport"
+    },
+    {
+      "id": "12",
+      "title": "TurboFlux Sport",
+      "stock": 2,
+      "price": 4350,
+      "image": "/images/3-3.jpg",
+      "category": "Sport"
+    },
+    {
+      "id": "13",
+      "title": "EcoPulse Electric",
+      "stock": 7,
+      "price": 3100,
+      "image": "/images/4-1.jpg",
+      "category": "Electric"
+    },
+    {
+      "id": "14",
+      "title": "VoltStream Electric",
+      "stock": 9,
+      "price": 3320,
+      "image": "/images/4-2.jpg",
+      "category": "Electric"
+    },
+    {
+      "id": "15",
+      "title": "ChargeFlow Electric",
+      "stock": 8,
+      "price": 3250,
+      "image": "/images/4-3.jpg",
+      "category": "Electric"
+    },
+    {
+      "id": "16",
+      "title": "PrestigeV8 Luxury",
+      "stock": 2,
+      "price": 5800,
+      "image": "/images/5-1.jpg",
+      "category": "Luxury"
+    },
+    {
+      "id": "17",
+      "title": "RoyalGlide Luxury",
+      "stock": 1,
+      "price": 6100,
+      "image": "/images/5-2.jpg",
+      "category": "Luxury"
+    },
+    {
+      "id": "18",
+      "title": "MajesticLine Luxury",
+      "stock": 3,
+      "price": 5950,
+      "image": "/images/5-3.jpg",
+      "category": "Luxury"
+    },
+    {
+      "id": "19",
+      "title": "AeroSwift Sedan",
+      "stock": 13,
+      "price": 1890,
+      "image": "/images/5-4.jpg",
+      "category": "Sedan"
+    },
+    {
+      "id": "20",
+      "title": "SummitPeak SUV",
+      "stock": 4,
+      "price": 2700,
+      "image": "/images/6-1.jpg",
+      "category": "SUV"
     }
   ],
->>>>>>> ae68fd639513309b0ec8dffa1f761827386ae031
   "$schema": "./node_modules/json-server/schema.json"
 }
