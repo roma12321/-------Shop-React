@@ -1,4 +1,5 @@
 .container {
+<<<<<<< HEAD
   max-width: 800px;
   margin: 40px auto;
   padding: 30px;
@@ -7,8 +8,28 @@
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
+=======
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #000000;
+  background-color: #50575e;
+}
+.bot{
+  color: #eee;
+}
+.button1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+h1 {
+>>>>>>> ae68fd639513309b0ec8dffa1f761827386ae031
   text-align: center;
 }
+<<<<<<< HEAD
 
 .container h1 {
   text-align: center;
@@ -22,6 +43,11 @@
 .container button {
   background: linear-gradient(135deg, #c9df50 0%, #ced117 100%);
   color: white;
+=======
+button {
+  background-color: #3498db;
+  color: rgb(201, 58, 58);
+>>>>>>> ae68fd639513309b0ec8dffa1f761827386ae031
   border: none;
   padding: 12px 24px;
   border-radius: 10px;

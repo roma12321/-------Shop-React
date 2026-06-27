@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { getUsers, registerUset } from "../../api/usersApi";
+import { getUsers, registerUser } from "../../api/usersApi";
 import styles from './LoginPage.module.css';
 
 function LoginPage() {
@@ -18,13 +18,12 @@ function LoginPage() {
       return;
     }
     localStorage.setItem("user", JSON.stringify(foundUser));
-    await registerUset(foundUser);
+    await registerUser(foundUser);
     alert("Вход выполнен");
     navigate("/catalog");
   }
   return (
     <div className={styles.container}>
-      <h1>Авторизация</h1>
       <form className={styles.form} onSubmit={handleRegister}>
         <input
           type="text"
@@ -42,6 +41,7 @@ function LoginPage() {
           Войти
         </button>
         <p>Нету аккаунта?<Link to="/regist">Зарегистрируйся</Link></p>
+        <p>Нету аккаунта?<Link to='/regist'>Зарегистрируйся</Link></p>
       </form>
     </div>
   );

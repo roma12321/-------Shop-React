@@ -17,7 +17,6 @@ function CatalogPage() {
 
   const [selectedCategory, setSelectedCategory] = useState("all");
 
-  // Фильтруем товары через useMemo — это правильно и быстро
   const filteredProducts = useMemo(() => {
     if (selectedCategory === "all") return products;
     return products.filter((product) => product.category === selectedCategory);
@@ -70,42 +69,26 @@ function CatalogPage() {
 
   return (
     <div className="body">
-      <div className={styles.container}>
-        <div className={styles.header}>
-          <h1>Каталог</h1>
-          <div>
-            <span>{user?.name}</span>
-            <button onClick={() => navigate("/cart")}>Корзина ({cartCount})</button>
-            <button onClick={logout}>Выйти</button>
-          </div>
-        </div>
-        <aside className={styles.sidebar}>
-          <h3>Категории</h3>
-          {categories.map((category) => (
-            <button
-              key={category}
-              onClick={() => setSelectedCategory(category)}
-              className={selectedCategory === category ? styles.activeCategory : ""}
-            >
-              {category}
-            </button>
-          ))}
-        </aside>
-        <div className={styles.products}>
-          {filteredProducts.length === 0 ? (
-            <p>Товаров не найдено</p>
-          ) : (
-            filteredProducts.map((product) => (
-              <div className={styles.card} key={product.id}>
-                <img src={product.image} alt={product.title} />
-                <h3>{product.title}</h3>
-                <p>{product.price}$</p>
-                <button onClick={() => addToCart(product)}>Добавить в корзину</button>
-              </div>
-            ))
-          )}
+    <div className={styles.container}>
+      <div className={styles.header}>
+        <h1>Каталог</h1>
+        <div>
+          <span>{user?.name}</span> 
+          <button onClick={()=>navigate("/cart")}>Корзина ({cartCount})</button>
+          <button onClick={logout}>Выйти</button>
         </div>
       </div>
+      <div className={styles.products}>
+        {products.map((product) => (
+          <div className={styles.card} key={product.id}>
+            <img src={product.image} alt={product.title} />
+            <h3>{product.title}</h3>
+            <p>{product.price}$</p> 
+            <button onClick={()=>addToCart(product)}>Добавить в корзину</button>
+          </div>
+        ))}
+      </div>
+    </div>
     </div>
   );
 }

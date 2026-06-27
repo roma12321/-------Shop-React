@@ -4,11 +4,11 @@ export async function getUsers() {
     const responce=await fetch(API_URL);
     return responce.json();
 }
-export async function registerUset(user){
+export async function registerUser(user){
     const responce=await fetch(API_URL,{
         method:"POST",
         headers:{
-            "Content-Type":"app;ication/json",
+            "Content-Type":"application/json",
             
         },
         body:JSON.stringify(user),

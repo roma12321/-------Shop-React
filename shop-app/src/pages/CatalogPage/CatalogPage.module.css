@@ -1,8 +1,8 @@
 body {
-  background: linear-gradient(135deg, #646f7a 0%);
+  background-color: #f9f9f9
 }
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   max-height: none;
   margin: 0 auto;
   padding: 20px;

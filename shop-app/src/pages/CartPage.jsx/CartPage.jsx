@@ -4,9 +4,9 @@ import styles from './CartPage.module.css';
 
 function CartPage() {
   const navigate = useNavigate();
-  const [cart, setCart] = useState(JSON.parse(localStorage.getItem("cart")) || []); // Добавлена проверка на null
+  const [cart, setCart] = useState(JSON.parse(localStorage.getItem("cart")) || []); 
 
-  function removeFromCart(id) { // Исправлено: removeFrontCart → removeFromCart
+  function removeFromCart(id) {
     const newCart = cart.filter((item) => item.id !== id);
     setCart(newCart);
     localStorage.setItem("cart", JSON.stringify(newCart));
@@ -16,9 +16,7 @@ function CartPage() {
     setCart([]);
     localStorage.removeItem("cart");
   }
-
   const totalPrice = cart.reduce((sum, item) => sum + item.price * item.count, 0);
-
   function increaseCount(id) {
     const newCart = cart.map((item) => {
       if (item.id === id) {
@@ -64,7 +62,7 @@ function CartPage() {
                 <div className={styles.counter}>
                   <button
                     disabled={item.count === 1}
-                    onClick={() => decreaseCount(item.id)} // Исправлено: decreaseCount → decreaseCount
+                    onClick={() => decreaseCount(item.id)} 
                   >
                     -
                   </button>
@@ -80,10 +78,10 @@ function CartPage() {
                     +
                   </button>
                 </div>
-                <p>Цена: {item.price}$</p> {/* Добавлен двоеточие для единообразия */}
+                <p>Цена: {item.price}$</p> 
                 <p>Кол-во: {item.count}</p>
                 <p>Сумма: {item.price * item.count}$</p>
-                <button onClick={() => removeFromCart(item.id)}>Удалить</button> {/* Исправлено: removeFrontCart → removeFromCart */}
+                <button onClick={() => removeFromCart(item.id)}>Удалить</button> 
               </div>
             ))}
             <h2>Итого: {totalPrice}$</h2>
@@ -96,3 +94,4 @@ function CartPage() {
 }
 
 export default CartPage;
+

@@ -11,6 +11,10 @@ import CartPage from './pages/CartPage.jsx/CartPage'
 import ProtectedRoute from './components/ProtectedRotue'
 import FooterPage from './pages/FooterPage/FooterPage'
 import HeaderPage from './pages/Header/HeaderPage'
+import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
+import ProductPage from './pages/ProductPage/ProductPage'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,13 +22,17 @@ function App() {
   return (
     <div>
       <HeaderPage/>
+      <Header/>
       <Routes>  
         <Route path='/footer' element={<FooterPage/>}/>
         <Route path='/regist' element={<RegisterPage/>}/>
         <Route path='/catalog' element={<ProtectedRoute><div><CatalogPage/><FooterPage /></div></ProtectedRoute>}/>
         <Route path='/login' element={<LoginPage/>}/>
         <Route path='/cart' element={<ProtectedRoute><div><CartPage /><FooterPage /></div></ProtectedRoute>}/>
+        <Route path='/product/:id' element={<ProductPage/>}/>
+        <Route path='/cart' element={ <ProtectedRoute> <CartPage/> </ProtectedRoute>}/>
       </Routes>
+      <Footer/>
     </div>
   )
 }
