@@ -10,12 +10,14 @@ import CatalogPage from './pages/CatalogPage/CatalogPage'
 import CartPage from './pages/CartPage.jsx/CartPage'
 import ProtectedRoute from './components/ProtectedRotue'
 import FooterPage from './pages/FooterPage/FooterPage'
+import HeaderPage from './pages/Header/HeaderPage'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div>
+      <HeaderPage/>
       <Routes>  
         <Route path='/footer' element={<FooterPage/>}/>
         <Route path='/regist' element={<RegisterPage/>}/>
