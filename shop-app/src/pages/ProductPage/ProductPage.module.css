@@ -1,71 +1,186 @@
 .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  padding: 40px 20px;
-  background-color: #ffffff;
-  color: #333333;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
 }
 
-.product {
-  width: 100%;
-  max-width: 500px;
-  margin-top: 30px;
-  background: #ffffff;
-  border: 1px solid #e0e0e0;
+.backButton {
+  background: none;
+  border: 1px solid #ccc;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #333;
+  transition: all 0.2s;
+}
+
+.backButton:hover {
+  background-color: #f5f5f5;
+  border-color: #999;
+}
+
+.cartBadge {
+  background-color: #ff4d4f;
+  color: white;
+  padding: 4px 10px;
   border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
-  overflow: hidden;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.productWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 40px;
+  align-items: start;
+}
+
+.imageSection {
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainImage {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.noImagePlaceholder {
+  width: 200px;
+  height: 200px;
+  background-color: #eee;
+  color: #888;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.infoSection {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
-.product img {
-  width: 100%;
-  height: 360px;
-  object-fit: cover;
-  background-color: #f5f5f5;
-}
-
-.product h1 {
-  margin: 20px 24px 8px;
-  font-size: 22px;
-  line-height: 1.2;
+.titleText {
+  font-size: 2rem;
+  margin-bottom: 15px;
   color: #1a1a1a;
 }
 
-.price {
-  margin: 0 24px 8px;
-  font-weight: 600;
-  font-size: 18px;
-  color: #2c2c2c;
+.description {
+  color: #000000;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  font-size: 1rem;
 }
 
-.stock, .description {
-  margin: 0 24px 20px;
-  font-size: 14px;
-  color: #555555;
-  line-height: 1.4;
+.priceBlock {
+  margin-bottom: 25px;
 }
 
-button {
-  background-color: #ffffff;
-  border: 1px solid #cccccc;
-  color: #333333;
+.currentPrice {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0a0a0a;
+}
+
+.actionsBlock {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.actionCall,
+.actionOrder {
   padding: 12px 24px;
-  margin: 0 24px 24px;
+  border: none;
   border-radius: 8px;
+  font-size: 1rem;
   cursor: pointer;
-  font-size: 15px;
-  transition: all 0.2s ease;
+  transition: transform 0.2s, opacity 0.2s;
+  font-weight: 500;
 }
 
-button:hover {
-  border-color: #999999;
-  background-color: #fafafa;
+.actionCall {
+  background-color: transparent;
+  border: 2px solid #db7734;
+  color: #db7734;
 }
 
-button:active {
-  transform: translateY(1px);
+.actionCall:hover {
+  background-color: #ebf5ff;
+  transform: translateY(-2px);
+}
+
+.actionOrder {
+  background-color: #db7734;
+  color: white;
+}
+
+.actionOrder:hover {
+  background-color: #000000;
+  transform: translateY(-2px);
+}
+
+.colorsBlock {
+  margin-bottom: 25px;
+}
+
+.colorLabel {
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.colorOptions {
+  display: flex;
+  gap: 10px;
+}
+
+.colorOption {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid black;
+  transition: border-color 0.2s;
+}
+
+.colorOption:hover {
+  border-color: rgba(0,0,0,0.3);
+  transform: scale(1.1);
+}
+
+.specItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.specKey {
+  font-weight: 600;
+  color: #444;
+}ц
+
+.specValue {
+  color: #666;
 }

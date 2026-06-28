@@ -21,12 +21,13 @@ function App() {
     <div>
       <HeaderPage/>
       <Routes>  
+        <Route path='/product/:id'element={<ProductPage />} />
         <Route path='/footer' element={<FooterPage/>}/>
         <Route path='/regist' element={<RegisterPage/>}/>
         <Route path='/catalog' element={<ProtectedRoute><div><CatalogPage/><FooterPage /></div></ProtectedRoute>}/>
         <Route path='/login' element={<LoginPage/>}/>
         <Route path='/cart' element={<ProtectedRoute><div><CartPage /><FooterPage /></div></ProtectedRoute>}/>
-        <Route path='/product/:id' element={<ProductPage/>}/>
+        <Route path='/product/:id' element={<ProtectedRoute><div><ProductPage /><FooterPage /></div></ProtectedRoute>}/>
         <Route path='/cart' element={ <ProtectedRoute> <CartPage/> </ProtectedRoute>}/>
       </Routes>
     </div>

@@ -113,169 +113,592 @@
       "email": "dfg",
       "password": "dfg",
       "id": "YyKo7Z8NTJ0"
+    },
+    {
+      "name": "dfg",
+      "email": "dfg",
+      "password": "dfg",
+      "id": "L6D9oYB20Ag"
     }
   ],
   "products": [
     {
-      "id": "1",
-      "title": "CityDrive Sedan",
-      "stock": 12,
-      "price": 1850,
-      "image": "/images/1-1.jpg",
-      "category": "Sedan"
+  "id": "1",
+  "title": "CityDrive Sedan",
+  "stock": 12,
+  "price": 1850,
+  "category": "Sedan",
+  "description": "CityDrive Sedan — идеальный выбор для ежедневных поездок по городу. Отличается экономичным расходом топлива, просторным салоном и продвинутой системой безопасности. Отлично подходит для семейных поездок и комфортной городской эксплуатации.",
+  "images": [
+    "/images/1-1.jpg"
+  ],
+  "colors": [
+    {
+      "name": "Серебристый",
+      "code": "#808080",
+      "image": "/images/images1-color-silver.jpg"
     },
+    {
+      "name": "Чёрный",
+      "code": "#000000",
+      "image": "/images/images1-color-black.jpg"
+    },
+    {
+      "name": "Белый",
+      "code": "#FFFFFF",
+      "image": "/images/images1-color-white.jpg"
+    }
+  ]
+},
     {
       "id": "2",
       "title": "UrbanFlow Sedan",
       "stock": 9,
       "price": 1920,
       "image": "/images/1-2.jpg",
-      "category": "Sedan"
+      "category": "Sedan",
+      "description": "UrbanFlow Sedan сочетает в себе стильный дизайн и высокую манёвренность. Благодаря улучшенной подвеске и отзывчивому рулевому управлению автомобиль уверенно чувствует себя в плотном городском трафике. В комплектацию входит мультимедийная система с поддержкой голосового управления."
+   ,
+   "images": [
+    "/images/1-2.jpg"
+  ],
+  "colors": [
+    {
+      "name": "Серебристый",
+      "code": "#808080",
+      "image": "/images/images1-color-silver.jpg"
     },
+    {
+      "name": "Чёрный",
+      "code": "#000000",
+      "image": "/images/images1-color-black.jpg"
+    },
+    {
+      "name": "Белый",
+      "code": "#FFFFFF",
+      "image": "/images/images1-color-white.jpg"
+    }
+  ]
+},
     {
       "id": "3",
       "title": "ComfortLine Sedan",
       "stock": 15,
       "price": 2100,
-      "image": "/images/1-3.jpg",
-      "category": "Sedan"
+      
+      "category": "Sedan",
+      "description": "ComfortLine Sedan создан для тех, кто ценит комфорт. Мягкие сиденья с боковой поддержкой, климат-контроль и шумоизоляция на высшем уровне делают каждую поездку приятной. Отличный вариант для длительных маршрутов и городских условий."
+    ,
+    "images": [
+    "/images/1-3.jpg"
+  ],
+  "colors": [
+    {
+      "name": "Серебристый",
+      "code": "#808080",
+      "image": "/images/images1-color-silver.jpg"
     },
+    {
+      "name": "Чёрный",
+      "code": "#000000",
+      "image": "/images/images1-color-black.jpg"
+    },
+    {
+      "name": "Белый",
+      "code": "#FFFFFF",
+      "image": "/images/images1-color-white.jpg"
+    }
+  ]
+},
     {
       "id": "4",
       "title": "SwiftPass Sedan",
       "stock": 7,
       "price": 1780,
-      "image": "/images/1-4.jpg",
-      "category": "Sedan"
+      "category": "Sedan",
+      "description": "SwiftPass Sedan — это динамика и экономичность в одном кузове. Автомобиль отличается быстрым разгоном и низким расходом топлива. Идеален для активных водителей, которым важна манёвренность и отзывчивость управления."
+   ,
+   "images": [
+    "/images/1-4.jpg"
+  ],
+  "colors": [
+    {
+      "name": "Серебристый",
+      "code": "#808080",
+      "image": "/images/images1-color-silver.jpg"
     },
+    {
+      "name": "Чёрный",
+      "code": "#000000",
+      "image": "/images/images1-color-black.jpg"
+    },
+    {
+      "name": "Белый",
+      "code": "#FFFFFF",
+      "image": "/images/images1-color-white.jpg"
+    }
+  ]
+},
     {
       "id": "5",
       "title": "MetroGlide Sedan",
       "stock": 11,
       "price": 1990,
-      "image": "/images/1-5.jpg",
-      "category": "Sedan"
+      "category": "Sedan",
+      "description": "MetroGlide Sedan разработан специально для мегаполисов. Плавный ход, отличная управляемость и современные ассистенты водителя делают его надёжным спутником в городских условиях. Вместительный багажник и эргономичный салон добавляют практичности."
+    ,
+    "images": [
+    "/images/1-5.jpg"
+  ],
+  "colors": [
+    {
+      "name": "Серебристый",
+      "code": "#808080",
+      "image": "/images/images1-color-silver.jpg"
     },
+    {
+      "name": "Чёрный",
+      "code": "#000000",
+      "image": "/images/images1-color-black.jpg"
+    },
+    {
+      "name": "Белый",
+      "code": "#FFFFFF",
+      "image": "/images/images1-color-white.jpg"
+    }
+  ]
+},
     {
       "id": "6",
       "title": "TrailBlazer SUV",
       "stock": 8,
       "price": 2400,
-      "image": "/images/2-1.jpg",
-      "category": "SUV"
+      "category": "SUV",
+      "description": "TrailBlazer SUV — универсальный внедорожник для города и бездорожья. Высокий клиренс, полный привод и прочная конструкция позволяют уверенно преодолевать сложные участки дороги. Отличный выбор для любителей активного отдыха."
+    ,
+    "images": [
+    "/images/2-1.jpg"
+  ],
+  "colors": [
+    {
+      "name": "Серебристый",
+      "code": "#808080",
+      "image": "/images/images1-color-silver.jpg"
     },
+    {
+      "name": "Чёрный",
+      "code": "#000000",
+      "image": "/images/images1-color-black.jpg"
+    },
+    {
+      "name": "Белый",
+      "code": "#FFFFFF",
+      "image": "/images/images1-color-white.jpg"
+    }
+  ]
+},
     {
       "id": "7",
       "title": "OffRoadX SUV",
       "stock": 5,
       "price": 2650,
-      "image": "/images/2-2.jpg",
-      "category": "SUV"
+      "category": "SUV",
+      "description": "OffRoadX SUV создан для покорения бездорожья. Усиленная подвеска, защита днища и продвинутая система полного привода делают его незаменимым в экстремальных условиях. Подходит для путешествий по пересечённой местности и экспедиций."
+    ,"images": [
+    "/images/2-2.jpg"
+  ],
+  "colors": [
+    {
+      "name": "Серебристый",
+      "code": "#808080",
+      "image": "/images/images1-color-silver.jpg"
     },
+    {
+      "name": "Чёрный",
+      "code": "#000000",
+      "image": "/images/images1-color-black.jpg"
+    },
+    {
+      "name": "Белый",
+      "code": "#FFFFFF",
+      "image": "/images/images1-color-white.jpg"
+    }
+  ]
+},
     {
       "id": "8",
       "title": "TerraRide SUV",
       "stock": 10,
       "price": 2380,
-      "image": "/images/2-3.jpg",
-      "category": "SUV"
+      "category": "SUV",
+      "description": "TerraRide SUV — баланс между комфортом и проходимостью. Просторный салон, современные технологии и надёжная ходовая часть делают его отличным выбором для семейных поездок и выездов на природу. Хорошо справляется с лёгкими бездорожными маршрутами."
+    ,"images": [
+    "/images/2-3.jpg"
+  ],
+  "colors": [
+    {
+      "name": "Серебристый",
+      "code": "#808080",
+      "image": "/images/images1-color-silver.jpg"
     },
+    {
+      "name": "Чёрный",
+      "code": "#000000",
+      "image": "/images/images1-color-black.jpg"
+    },
+    {
+      "name": "Белый",
+      "code": "#FFFFFF",
+      "image": "/images/images1-color-white.jpg"
+    }
+  ]
+},
     {
       "id": "9",
       "title": "CrossPath SUV",
       "stock": 6,
       "price": 2520,
-      "image": "/images/2-4.jpg",
-      "category": "SUV"
+      "category": "SUV",
+      "description": "CrossPath SUV — стильный и функциональный внедорожник. В нём сочетаются элегантный дизайн, вместительный салон и хорошая проходимость. Подходит как для городских поездок, так и для загородных маршрутов."
+   ,"images": [
+    "/images/2-4.jpg"
+  ],
+  "colors": [
+    {
+      "name": "Серебристый",
+      "code": "#808080",
+      "image": "/images/images1-color-silver.jpg"
     },
+    {
+      "name": "Чёрный",
+      "code": "#000000",
+      "image": "/images/images1-color-black.jpg"
+    },
+    {
+      "name": "Белый",
+      "code": "#FFFFFF",
+      "image": "/images/images1-color-white.jpg"
+    }
+  ]
+},
     {
       "id": "10",
       "title": "ApexRush Sport",
       "stock": 3,
       "price": 3800,
-      "image": "/images/3-1.jpg",
-      "category": "Sport"
+      "category": "Sport",
+      "description": "ApexRush Sport — автомобиль для настоящих ценителей скорости. Мощный двигатель, спортивная подвеска и аэродинамический кузов обеспечивают впечатляющую динамику и управляемость. Создан для тех, кто хочет получать максимум эмоций от вождения."
+   ,"images": [
+    "/images/3-1.jpg"
+  ],
+  "colors": [
+    {
+      "name": "Серебристый",
+      "code": "#808080",
+      "image": "/images/images1-color-silver.jpg"
     },
+    {
+      "name": "Чёрный",
+      "code": "#000000",
+      "image": "/images/images1-color-black.jpg"
+    },
+    {
+      "name": "Белый",
+      "code": "#FFFFFF",
+      "image": "/images/images1-color-white.jpg"
+    }
+  ]
+},
     {
       "id": "11",
       "title": "VelocityX Sport",
       "stock": 4,
       "price": 4100,
-      "image": "/images/3-2.jpg",
-      "category": "Sport"
+      "category": "Sport",
+      "description": "VelocityX Sport — воплощение спортивного духа. Отличается агрессивным дизайном, высокой мощностью и точной управляемостью. Идеален для любителей динамичного вождения и трековых заездов."
+   ,
+   "images": [
+    "/images/3-2.jpg"
+  ],
+  "colors": [
+    {
+      "name": "Серебристый",
+      "code": "#808080",
+      "image": "/images/images1-color-silver.jpg"
     },
+    {
+      "name": "Чёрный",
+      "code": "#000000",
+      "image": "/images/images1-color-black.jpg"
+    },
+    {
+      "name": "Белый",
+      "code": "#FFFFFF",
+      "image": "/images/images1-color-white.jpg"
+    }
+  ]
+},
     {
       "id": "12",
       "title": "TurboFlux Sport",
       "stock": 2,
       "price": 4350,
-      "image": "/images/3-3.jpg",
-      "category": "Sport"
+      "category": "Sport",
+      "description": "TurboFlux Sport — вершина инженерной мысли в сегменте спорткаров. Турбированный двигатель, облегчённый кузов и продвинутые технологии обеспечивают невероятную скорость и манёвренность. Для тех, кто не готов идти на компромиссы."
+    ,
+    "images": [
+    "/images/3-3.jpg"
+  ],
+  "colors": [
+    {
+      "name": "Серебристый",
+      "code": "#808080",
+      "image": "/images/images1-color-silver.jpg"
     },
+    {
+      "name": "Чёрный",
+      "code": "#000000",
+      "image": "/images/images1-color-black.jpg"
+    },
+    {
+      "name": "Белый",
+      "code": "#FFFFFF",
+      "image": "/images/images1-color-white.jpg"
+    }
+  ]
+},
     {
       "id": "13",
       "title": "EcoPulse Electric",
       "stock": 7,
       "price": 3100,
-      "image": "/images/4-1.jpg",
-      "category": "Electric"
+      "category": "Electric",
+      "description": "EcoPulse Electric — экологичный и экономичный электромобиль. Большой запас хода, быстрая зарядка и современные системы помощи водителю делают его отличным выбором для городских поездок. Способствует снижению углеродного следа."
+   ,
+   "images": [
+    "/images/4-1.jpg"
+  ],
+  "colors": [
+    {
+      "name": "Серебристый",
+      "code": "#808080",
+      "image": "/images/images1-color-silver.jpg"
     },
+    {
+      "name": "Чёрный",
+      "code": "#000000",
+      "image": "/images/images1-color-black.jpg"
+    },
+    {
+      "name": "Белый",
+      "code": "#FFFFFF",
+      "image": "/images/images1-color-white.jpg"
+    }
+  ]
+},
     {
       "id": "14",
       "title": "VoltStream Electric",
       "stock": 9,
       "price": 3320,
-      "image": "/images/4-2.jpg",
-      "category": "Electric"
+      "category": "Electric",
+      "description": "VoltStream Electric — сочетание инноваций и комфорта. Просторный салон, продвинутая мультимедийная система и впечатляющий запас хода делают его идеальным для ежедневных поездок и дальних маршрутов. Полностью электрический привод обеспечивает плавное и тихое движение."
+    ,
+    "images": [
+    "/images/4-2.jpg"
+  ],
+  "colors": [
+    {
+      "name": "Серебристый",
+      "code": "#808080",
+      "image": "/images/images1-color-silver.jpg"
     },
+    {
+      "name": "Чёрный",
+      "code": "#000000",
+      "image": "/images/images1-color-black.jpg"
+    },
+    {
+      "name": "Белый",
+      "code": "#FFFFFF",
+      "image": "/images/images1-color-white.jpg"
+    }
+  ]
+},
     {
       "id": "15",
       "title": "ChargeFlow Electric",
       "stock": 8,
       "price": 3250,
-      "image": "/images/4-3.jpg",
-      "category": "Electric"
+      "category": "Electric",
+      "description": "ChargeFlow Electric — практичный электромобиль для современного города. Быстрая зарядка, энергоэффективность и современные технологии безопасности делают его надёжным и удобным в эксплуатации. Отличный выбор для осознанных водителей."
+    ,
+    "images": [
+    "/images/4-3.jpg"
+  ],
+  "colors": [
+    {
+      "name": "Серебристый",
+      "code": "#808080",
+      "image": "/images/images1-color-silver.jpg"
     },
+    {
+      "name": "Чёрный",
+      "code": "#000000",
+      "image": "/images/images1-color-black.jpg"
+    },
+    {
+      "name": "Белый",
+      "code": "#FFFFFF",
+      "image": "/images/images1-color-white.jpg"
+    }
+  ]
+},
     {
       "id": "16",
       "title": "PrestigeV8 Luxury",
       "stock": 2,
       "price": 5800,
-      "image": "/images/5-1.jpg",
-      "category": "Luxury"
+      "category": "Luxury",
+      "description": "PrestigeV8 Luxury — воплощение роскоши и статуса. Премиальные материалы отделки, мощный V8-двигатель и передовые технологии создают неповторимый опыт вождения. Для тех, кто привык к самому лучшему."
+   ,
+   "images": [
+    "/images/5-1.jpg"
+  ],
+  "colors": [
+    {
+      "name": "Серебристый",
+      "code": "#808080",
+      "image": "/images/images1-color-silver.jpg"
     },
+    {
+      "name": "Чёрный",
+      "code": "#000000",
+      "image": "/images/images1-color-black.jpg"
+    },
+    {
+      "name": "Белый",
+      "code": "#FFFFFF",
+      "image": "/images/images1-color-white.jpg"
+    }
+  ]
+},
     {
       "id": "17",
       "title": "RoyalGlide Luxury",
       "stock": 1,
       "price": 6100,
-      "image": "/images/5-2.jpg",
-      "category": "Luxury"
+      "category": "Luxury",
+      "description": "RoyalGlide Luxury — автомобиль исключительного класса. Безупречный дизайн, максимальный комфорт и эксклюзивные опции делают его эталоном роскоши. Каждая деталь продумана до мелочей для обеспечения непревзойдённого уровня комфорта."
+    ,
+    "images": [
+    "/images/5-2.jpg"
+  ],
+  "colors": [
+    {
+      "name": "Серебристый",
+      "code": "#808080",
+      "image": "/images/images1-color-silver.jpg"
     },
+    {
+      "name": "Чёрный",
+      "code": "#000000",
+      "image": "/images/images1-color-black.jpg"
+    },
+    {
+      "name": "Белый",
+      "code": "#FFFFFF",
+      "image": "/images/images1-color-white.jpg"
+    }
+  ]
+},
     {
       "id": "18",
       "title": "MajesticLine Luxury",
       "stock": 3,
       "price": 5950,
-      "image": "/images/5-3.jpg",
-      "category": "Luxury"
+      "category": "Luxury",
+      "description": "MajesticLine Luxury — гармония элегантности и технологичности. Роскошный интерьер, передовые системы безопасности и мощный двигатель обеспечивают комфорт и уверенность на дороге. Идеальный выбор для взыскательных клиентов."
+    ,
+    "images": [
+    "/images/5-3.jpg"
+  ],
+  "colors": [
+    {
+      "name": "Серебристый",
+      "code": "#808080",
+      "image": "/images/images1-color-silver.jpg"
     },
+    {
+      "name": "Чёрный",
+      "code": "#000000",
+      "image": "/images/1-color-black.jpg"
+    },
+    {
+      "name": "Белый",
+      "code": "#FFFFFF",
+      "image": "/images/images1-color-white.jpg"
+    }
+  ]
+},
     {
       "id": "19",
       "title": "AeroSwift Sedan",
       "stock": 13,
       "price": 1890,
-      "image": "/images/5-4.jpg",
-      "category": "Sedan"
+      "category": "Sedan",
+      "description": "AeroSwift Sedan отличается улучшенной аэродинамикой, что положительно сказывается на топливной экономичности и устойчивости на высоких скоростях. Комфортный салон и современные опции делают его отличным вариантом для ежедневных поездок."
+   ,
+   "images": [
+    "/images/5-4.jpg"
+  ],
+  "colors": [
+    {
+      "name": "Серебристый",
+      "code": "#808080",
+      "image": "/images/images1-color-silver.jpg"
     },
+    {
+      "name": "Чёрный",
+      "code": "#000000",
+      "image": "/images/images1-color-black.jpg"
+    },
+    {
+      "name": "Белый",
+      "code": "#FFFFFF",
+      "image": "/images/images1-color-white.jpg"
+    }
+  ]
+},
     {
       "id": "20",
       "title": "SummitPeak SUV",
       "stock": 4,
       "price": 2700,
-      "image": "/images/6-1.jpg",
-      "category": "SUV"
+      "category": "SUV",
+      "description": "SummitPeak SUV — надёжный спутник для любых приключений. Высокий дорожный просвет, вместительный салон и продуманная система безопасности делают его подходящим для семейных путешествий и поездок по бездорожью. Уверенно преодолевает сложные маршруты."
+    ,
+    "images": [
+    "/images/6-1.jpg"
+  ],
+  "colors": [
+    {
+      "name": "Серебристый",
+      "code": "#808080",
+      "image": "/images/images1-color-silver.jpg"
+    },
+    {
+      "name": "Чёрный",
+      "code": "#000000",
+      "image": "/images/images1-color-black.jpg"
+    },
+    {
+      "name": "Белый",
+      "code": "#FFFFFF",
+      "image": "/images/images1-color-white.jpg"
     }
+  ]
+}
   ],
   "$schema": "./node_modules/json-server/schema.json"
 }
